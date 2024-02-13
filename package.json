@@ -10,6 +10,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "ahooks": "^3.7.10",
+    "axios": "^1.6.7",
+    "dayjs": "^1.11.10",
+    "nhentai-js": "^4.0.0",
     "react": "18.2.0",
     "react-native": "0.73.2"
   },
