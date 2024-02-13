@@ -1,6 +1,13 @@
 module.exports = {
   root: true,
-  extends: '@react-native',
+  extends: [
+    'eslint:recommended',
+    '@react-native-community',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:prettier/recommended',
+  ],
+  plugins: ['unused-imports'],
   rules: {
     eqeqeq: 'error', // 必须使用 === 和 !==
     'no-nested-ternary': 'error', // 三元表达式不能嵌套
@@ -9,4 +16,4 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off', // 关闭未使用变量检测
     curly: 'error', // if 强制换行
   },
-};
+}
