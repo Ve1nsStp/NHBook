@@ -10,4 +10,4 @@ module.exports = {
   useTabs: false, // 使用tab
   tabWidth: 2, // tab宽度
   semi: false, // 分号
-};
+}
